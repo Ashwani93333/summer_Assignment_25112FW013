@@ -19,8 +19,12 @@ public class Q26 {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter number of terms: ");
         int n = sc.nextInt();
 
-        System.out.println(fib(n));
+        System.out.println("Fibonacci Series:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(fib(i) + " ");
+        }
     }
 }
